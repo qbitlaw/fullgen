@@ -8,3 +8,4 @@ placement_size = 5
 with open("results.txt", "w") as f:
     for p in product(characters, repeat=placement_size):
         f.write(''.join(p) + "\n")
+        # you can give your own custom instruction right here
